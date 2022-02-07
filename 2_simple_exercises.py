@@ -13,7 +13,8 @@ sampleDict = {
    }
 }
 
-
+key = sampleDict['class']['student']['marks']['history']
+print(key)
 
 
 # 2) Add 2 inches to the son's height.
