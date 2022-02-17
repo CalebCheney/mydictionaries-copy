@@ -120,7 +120,7 @@ print('*****  end section 5 ********')
 print()
 
 
-
+"""
 
 
 
@@ -138,6 +138,7 @@ print()
 
 
 
+'''
 
 
 
@@ -210,19 +211,19 @@ print(phonebook)
 print()
 print('******* section 10 end ******')
 print()
-"""
+
 
 import random
 print()#getting a random key
 print('*****  start section 11 - using random and converting to list ********')
 print()
-'''
+
 list_of_keys = list(phonebook)
 random_key = random.choice(list_of_keys)
 phone = phonebook[random_key]
 
 print(phone)
-'''
+
 #same thing all in one line
 phone = phonebook[random.choice(list(phonebook))]
 
@@ -233,7 +234,7 @@ print('*****  end section 11 ********')
 print()
 
 '''
-'''
+
 
 
 
