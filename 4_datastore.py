@@ -49,7 +49,7 @@ datastore = { "medical":[
 }
 
 
-
+'''
 def main():
   store = []
 
@@ -67,6 +67,7 @@ def main():
   outfile.close()
 
 main()
+'''
 outfile = open('retail_space.csv', 'w')
 outfile.write('room-number,use,sq-ft,price\n')
 
