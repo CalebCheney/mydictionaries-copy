@@ -67,3 +67,17 @@ def main():
   outfile.close()
 
 main()
+outfile = open('retail_space.csv', 'w')
+outfile.write('room-number,use,sq-ft,price\n')
+
+#print(datastore["medical"])
+
+#l is each dict that will be iterated through medical
+for l in datastore["medical"]:
+  outfile.write(str(l['room-number']) + ',' +
+  l['use'] + ',' +
+  str(l['sq-ft']) + ',' +
+  str(l['price']) + '\n')
+
+outfile.close()
+
